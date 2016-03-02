@@ -1,0 +1,52 @@
+{
+  "objects": [
+    {
+      "id": 1,
+      "title": "image 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae urna dignissim eros lobortis placerat eget mollis eros. Mauris facilisis mollis pulvinar. Proin eget diam id magna suscipit maximus. Nullam sollicitudin metus non faucibus condimentum. Curabitur suscipit eleifend consectetur. In id magna non justo maximus bibendum et et dolor. Integer porttitor et neque nec gravida. ",
+      "image" : "data/images/1_min.jpg"
+    },
+    {
+      "id": 2,
+      "title": "image 2",
+      "description": "description 2",
+      "image" : "data/images/2_min.jpg"
+    },
+    {
+      "id": 3,
+      "title": "image 3",
+      "description": "description 3",
+      "image" : "data/images/3_min.jpg"
+    },
+    {
+      "id": 4,
+      "title": "image 4",
+      "description": "description 4",
+      "image" : "data/images/4_min.jpg"
+    },
+    {
+      "id": 5,
+      "title": "image 5",
+      "description": "description 5",
+      "image" : "data/images/5_min.jpg"
+    },
+    {
+      "id": 6,
+      "title": "image 6",
+      "description": "description 6",
+      "image" : "data/images/6_min.jpg"
+    },
+    {
+      "id": 7,
+      "title": "image 7",
+      "description": "description 7",
+      "image" : "data/images/7_min.jpg"
+    },
+    {
+      "id": 8,
+      "title": "image 8",
+      "description": "description 8",
+      "image" : "data/images/8_min.jpg"
+    }
+  ]
+}

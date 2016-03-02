@@ -1,0 +1,18 @@
+<div class="modal-header modal-header-coal">
+    <h3 class="modal-title"><i class="fa fa-expand"></i> Resize</h3>
+</div>
+<div class="modal-body">
+    <div class="image-to-resize-container">
+        <img-crop image="imageToCrop" result-image="imageCropped" area-type="square"></img-crop>
+    </div>
+    <div>
+        <h5>Cropped Image:</h5>
+        <div class="image-resized-container"><img ng-src="{{imageCropped}}" /></div>
+    </div>
+</div>
+
+
+<div class="modal-footer">
+    <button class="btn btn-default" type="button" ng-click="save()"><i class="fa fa-check"></i> Save</button>
+    <button class="btn btn-danger" type="button" ng-click="cancel()"><i class="fa fa-ban"></i> Cancel</button>
+</div>

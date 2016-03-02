@@ -1,0 +1,37 @@
+<div class="col-md-12">
+    <form class="dropzone" id="block-upload-image" method="post" enctype="multipart/form-data" ng-dropzone dropzone="dropzone"
+          dropzone-config="dropzoneConfig">
+        <input name="file" type="file" multiple/>
+    </form>
+</div>
+<div class="col-md-12 separator-md"></div>
+<div ng-repeat="object in objects">
+    <div class="hidden-xs hidden-sm clearfix separator-lg" ng-if="$index % 3 == 0"></div>
+    <div class="dropzone-previews col-md-4" >
+        <div class="hidden-md hidden-lg separator-lg"></div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="img preview"><img src="{{ object.image }}" class="img-rounded-custom img-responsive"/>
+                    <div class="overlay">
+                        <p>{{ object.title }}</p>
+                        <p class="text-sm" ng-model="object.description">{{ object.description }}</p>
+                    </div>
+                </div>
+                <div class="console console-soft-metal console-horizontal console-md ovr-centered">
+                    <!-- open a modal to edit image info -->
+                    <button type="button" class="btn btn-default" ng-click="openEditObject(object)"><i class="fa fa-pencil-square-o"></i>
+                        <small>edit</small>
+                    </button>
+                    <!-- open a modal to confirm the action -->
+                    <button type="button" class="btn btn-default" ng-click="openConfirmDelete(object)"><i class="fa fa-trash-o"></i>
+                        <small>delete</small>
+                    </button>
+                    <!-- open a modal to crop the image -->
+                    <button type="button" class="btn btn-default" ng-click="openCropImage(object)"><i class="fa fa-expand"></i>
+                        <small>crop</small>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
