@@ -13,4 +13,5 @@ Small demo application that use DropzoneJS and AngularJS for managing images.
 
 #### Build & development
 
-Run `grunt` for building and `grunt serve` for preview.
+Install project dependencies with `npm install` and `bower install` 
+Run `grunt serve` for preview.
